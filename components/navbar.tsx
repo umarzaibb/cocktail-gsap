@@ -3,7 +3,7 @@ import navList from '../variables/navList.js';
 
 export default function Navbar() {
   return (
-    <nav className='flex flex-row justify-between content-center items-center bg-black/30 backdrop-blur-md border border-white/10  h-16'>
+    <nav className='flex flex-row fixed z-9 top-0 w-[100vw] justify-between content-center items-center bg-black/30 backdrop-blur-md border border-white/10  h-16'>
 
       <span className='flex flex-row justify-between content-center '>
         <img className='pl-20' src={'logo.png'}></img>
