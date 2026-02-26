@@ -6,3 +6,15 @@
     list-style-type: none;
     overflow-x: hidden;
 }
+
+
+.hero-heading {
+    color: rgb(209, 206, 206);
+    font-size: 12rem;
+    font-family:'Gveret Levin';
+    font-weight: bolder;
+    position: absolute;
+    bottom: 51vh;  
+    left: 26vw;
+    z-index: 10;
+}
